@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bmarti-portfolio/static/css/main.33e3c33f.css",
+    "main.js": "/bmarti-portfolio/static/js/main.aa5c4b80.js",
+    "static/media/me.png": "/bmarti-portfolio/static/media/me.821ecddcb9953b46bf75.png",
+    "index.html": "/bmarti-portfolio/index.html",
+    "main.33e3c33f.css.map": "/bmarti-portfolio/static/css/main.33e3c33f.css.map",
+    "main.aa5c4b80.js.map": "/bmarti-portfolio/static/js/main.aa5c4b80.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.33e3c33f.css",
+    "static/js/main.aa5c4b80.js"
+  ]
+}
