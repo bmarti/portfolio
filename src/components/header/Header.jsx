@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Bienvenue !</h5>
-        <h1>Je m'appelle Baptiste MARTINEZ</h1>
+        <h5>Bienvenue, je suis</h5>
+        <h1>Baptiste MARTINEZ</h1>
         <h5 className="text-light">Ingénieur en développement logiciels</h5>
         <ButtonGroupAction />
 

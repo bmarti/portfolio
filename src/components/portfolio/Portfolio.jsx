@@ -20,7 +20,7 @@ const data = [
     title: 'Site web Isigala',
     description: 'Refonte complète du site web de l\'association organisant le gala de mon ancienne école d\'ingénieurs.',
     github: 'https://github.com/bmarti/Isigala-Website-v2',
-    demo: 'https://github.com',
+    demo: 'https://youtu.be/Q2xfgoOqua0',
     technos: 'HTML5, CSS3'
   },
   {
