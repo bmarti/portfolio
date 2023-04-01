@@ -1,7 +1,7 @@
 import './header.css'
 import ButtonGroupAction from './ButtonGroupAction'
 import HeaderSocials from './HeaderSocials'
-import ME from '../../assets/img/me.png'
+import ME from '../../assets/img/photoOfMeDetouree.png'
 import React from 'react'
 
 const Header = () => {
