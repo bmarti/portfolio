@@ -33,9 +33,9 @@ const About = () => {
               <BsAward className='about__icon'/>
               <h5>Langages de prédilection</h5>
               <div className='about__languages'>
-                <FaJava/>
-                <SiCplusplus/>
-                <SiCsharp/>
+                <h5>Java</h5> <span className='javaIcon'><FaJava/></span>
+                <h5>C++</h5> <span className='cppIcon'><SiCplusplus/></span>
+                <h5>C#</h5><span className='csharpIcon'><SiCsharp/></span>
               </div>
             </article>
 

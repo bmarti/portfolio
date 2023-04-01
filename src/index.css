@@ -24,7 +24,7 @@ body {
 
 :root {
     --color-bg: #182135;/* #1f1f38; */
-    --color-bg-variant: rgba(19, 34, 100, 0.4);/* rgb(19, 34, 100); *//* #2c2c6c; */
+    --color-bg-variant: rgba(25, 28, 41, 0.712);/* rgba(19, 34, 100, 0.4); *//* #2c2c6c; */
     --color-primary: #5c97db;/* #4db5ff; */
     --color-primary-variant: rgba(77, 181, 255, 0.4);
     --color-white: #fff;
