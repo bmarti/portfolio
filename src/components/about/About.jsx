@@ -31,29 +31,31 @@ const About = () => {
 
             <article className='about__card'>
               <BsAward className='about__icon'/>
-              <h5>Langages de prédilection</h5>
+              <h5>Langages de programmation</h5>
               <div className='about__languages'>
-                <h5>Java</h5> <span className='javaIcon'><FaJava/></span>
-                <h5>C++</h5> <span className='cppIcon'><SiCplusplus/></span>
-                <h5>C#</h5><span className='csharpIcon'><SiCsharp/></span>
+                <FaJava/>
+                <SiCplusplus/>
+                <SiCsharp/>
               </div>
             </article>
 
             <article className='about__card'>
               <TbMessageLanguage className='about__icon'/>
               <h5>Langues parlées</h5>
-              <small>Français (natif), Anglais (courant) et Espagnol (B1)</small>
+              <small className='langues'>Français (natif)</small>
+              <small className='langues'>Anglais (B2 - courant)</small>
+              <small className='langues'>Espagnol (B1)</small>
             </article>
           </div>
 
-          <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis aliquid officiis atque libero eaque, repudiandae
-              illo ea earum aperiam sed, excepturi consequuntur dolorem 
-              natus unde ab molestias assumenda magnam voluptate?
+          <p className='intro'>
+            Depuis tout jeune, les ordinateurs me fascinent. C'est pourquoi j'ai étudié le développement logiciel à l'ISIMA*
+            en suivant la filière Calculs et Modélisations scientifiques. Désormais, je suis devenu ingénieur en informatique
+            et suis prêt à approfondir et partager mes connaissances au sein de projets diversifiés pour évoluer dans ma carrière.
           </p>
+          <p>*Institut Supérieur d'Informatique, de Modélisations et de leurs Applications, école d'ingénieur située à Aubière, près de Clermont-Ferrand (63).</p>
 
-            <a href="#contact" className='btn btn-primary'>Venez discuter</a>
+            <a href="#contact" className='btn btn-primary'>Contactez-moi</a>
         </div>
       </div>
     </section>

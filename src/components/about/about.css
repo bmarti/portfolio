@@ -69,8 +69,13 @@
 }
 
 .about__card small {
-    font-size: 0.7rem;
+    font-size: 0.75rem;
     color: var(--color-light);
+}
+
+.langues {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .about__content p {
@@ -84,19 +89,11 @@
     gap:0.5rem;
     padding: 1rem 0 0 0;
     display:grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
 }
 
-.javaIcon {
-    color: rgb(218, 22, 22);
-}
-
-.cppIcon {
-    color: rgb(7, 57, 131);
-}
-
-.csharpIcon {
-    color: rgba(102, 44, 141, 0.7);
+p.intro {
+    text-align: justify;
 }
 
 /* ==== MEDIUM DEVICES ====*/
