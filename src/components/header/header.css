@@ -42,10 +42,10 @@ header {
 
 .me {
     background: linear-gradient(var(--color-primary), transparent);
-    width: 20rem;
-    height: 30rem;
+    width: 17rem;
+    height: 26rem;
     position: absolute;
-    left: calc(50% - 11rem);
+    left: calc(50% - 9rem);
     margin-top: 4rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
@@ -67,7 +67,7 @@ header {
 /* ==== MEDIUM DEVICES ====*/
 @media screen and (max-width: 1024px) {
     header {
-        height: 68vh;
+        height: 85vh;
     }
 }
 
