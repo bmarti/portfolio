@@ -22,6 +22,10 @@
     overflow: hidden;
 }
 
+.question-mark {
+    opacity:0.3;
+}
+
 .portfolio__item h3 {
     margin: 1.2rem 0 1rem;
 }
@@ -33,12 +37,30 @@
 }
 
 .btn-demo {
-    margin-left: 1rem
+    margin-left: 1rem;
+}
+
+.btn-without-code {
+    background-color: #cccccc !important;
+    color: #666666 !important;
+    border: 1px solid #999999 !important;
+    pointer-events: none;
 }
 
 .portfolio__item h5 {
     text-align: justify;
     padding: 0 0 1rem 0;
+}
+
+.portfolio__item h5.desc {
+    text-align: start;
+    padding: 0 0 1rem 0;
+}
+
+.subtitle {
+    padding: 1rem 0 1rem 0;
+    text-align: center;
+    color: var(--color-light);
 }
 
 /* ==== MEDIUM DEVICES ====*/

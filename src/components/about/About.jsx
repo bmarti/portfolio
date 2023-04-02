@@ -3,6 +3,7 @@ import './about.css'
 import PHOTO from '../../assets/img/photoOfMe2Detouree.png'
 import {BsAward} from 'react-icons/bs'
 import {FaJava} from 'react-icons/fa'
+import {HiComputerDesktop} from 'react-icons/hi2'
 import {SiCplusplus} from 'react-icons/si'
 import {SiCsharp} from 'react-icons/si'
 import {TbMessageLanguage} from 'react-icons/tb'
@@ -30,7 +31,7 @@ const About = () => {
             </article>
 
             <article className='about__card'>
-              <BsAward className='about__icon'/>
+              <HiComputerDesktop className='about__icon'/>
               <h5>Langages de programmation</h5>
               <div className='about__languages'>
                 <FaJava/>
@@ -55,7 +56,7 @@ const About = () => {
           </p>
           <p>*Institut Supérieur d'Informatique, de Modélisations et de leurs Applications, école d'ingénieur située à Aubière, près de Clermont-Ferrand (63).</p>
 
-            <a href="#contact" className='btn btn-primary'>Contactez-moi</a>
+          {/* <a href="#contact" className='btn btn-primary'>Contactez-moi</a> */}
         </div>
       </div>
     </section>

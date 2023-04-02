@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <section id='experience'>
       <h5>Les compétences que j'ai acquises</h5>
-      <h5>Initié {"<"} Bon niveau {"<"} Confirmé {"<"} Expert</h5>
+      <h5>(Initié {"<"} Bon niveau {"<"} Confirmé {"<"} Expert)</h5>
       <h2>Expérience professionnelle</h2>
 
       <div className='container experience__container'>
@@ -51,6 +51,13 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
+                <h4>Kotlin</h4>
+                <small className='text-light'>Initié</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
                 <h4>Python</h4>
                 <small className='text-light'>Initié</small>
               </div>
@@ -72,7 +79,7 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>Maven</h4>
+                <h4>JUnit</h4>
                 <small className='text-light'>Confirmé</small>
               </div>
             </article>
@@ -100,20 +107,6 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-                <h4>NodeJS</h4>
-                <small className='text-light'>Initié</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
-                <h4>Docker</h4>
-                <small className='text-light'>Initié</small>
-              </div>
-            </article>
-            <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon'/>
-              <div>
                 <h4>Tomcat</h4>
                 <small className='text-light'>Confirmé</small>
               </div>
@@ -130,6 +123,20 @@ const Experience = () => {
               <div>
                 <h4>Cassandra</h4>
                 <small className='text-light'>Bon niveau</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Docker</h4>
+                <small className='text-light'>Initié</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>NodeJS</h4>
+                <small className='text-light'>Initié</small>
               </div>
             </article>
           </div>

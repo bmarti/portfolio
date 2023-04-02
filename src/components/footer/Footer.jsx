@@ -4,7 +4,7 @@ import {FaGithub, FaLinkedin} from 'react-icons/fa'
 
 const Footer = () => {
   return (
-    <footer>
+    <footer id='footer'>
       <a href="#" className='footer__logo'>Baptiste Martinez</a>
 
       <ul className='permalinks'>
@@ -12,7 +12,7 @@ const Footer = () => {
         <li><a href="#about">Qui suis-je ?</a></li>
         <li><a href="#experience">Expérience</a></li>
         <li><a href="#portfolio">Portfolio</a></li>
-        <li><a href="#contact">Contact</a></li>
+        {/* <li><a href="#contact">Contact</a></li> */}
       </ul>
 
       <div className="footer__socials">
