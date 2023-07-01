@@ -1,7 +1,7 @@
 import './header.css'
 import ButtonGroupAction from './ButtonGroupAction'
 import HeaderSocials from './HeaderSocials'
-import ME from '../../assets/img/photoOfMeDetouree.png'
+import ME from '../../assets/img/photoOfMeDetoureeFixed.png'
 import React from 'react'
 
 const Header = () => {
@@ -16,8 +16,9 @@ const Header = () => {
         {/* <HeaderSocials /> */}
 
         <div className="me">
-          <div className="fondPhoto"></div>
-          <img src={ME} alt="profilePhoto" />
+          <div className="fondPhoto">
+            <img src={ME} alt="profilePhoto" />
+          </div>
         </div>
 
         <a href="#footer" className='scroll__down'>Scroll Down</a>
