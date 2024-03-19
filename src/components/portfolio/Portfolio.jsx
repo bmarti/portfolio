@@ -46,7 +46,7 @@ const projectInCreation = [
     title: 'Bidondeau',
     description: 'Application android en phase d\'architecture.',
     github: '#',
-    technos: 'Kotlin, Java 17'
+    technos: 'Kotlin, Java 21'
   },
   {
     id: 2,
@@ -55,7 +55,7 @@ const projectInCreation = [
     description: 'Convertisseur de monnaies utilisant l\'API Openexchangerates \
     selon les taux en vigueur en temps réel.',
     github: '#',
-    technos: 'C#, .Net, WinForms'
+    technos: 'Kotlin, Java 21'
   },
   {
     id: 3,
