@@ -1,4 +1,3 @@
-import React from 'react'
 import './experience.css'
 import {BsPatchCheckFill} from 'react-icons/bs'
 
@@ -17,6 +16,13 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Java</h4>
+                <small className='text-light'>Expert</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Typescript</h4>
                 <small className='text-light'>Confirmé</small>
               </div>
             </article>
@@ -37,6 +43,20 @@ const Experience = () => {
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
+                <h4>Bash</h4>
+                <small className='text-light'>Confirmé</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
+                <h4>Powershell</h4>
+                <small className='text-light'>Initié</small>
+              </div>
+            </article>
+            <article className='experience__details'>
+              <BsPatchCheckFill className='experience__details-icon'/>
+              <div>
                 <h4>C#</h4>
                 <small className='text-light'>Bon niveau</small>
               </div>
@@ -45,7 +65,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
                 <h4>Javascript</h4>
-                <small className='text-light'>Initié</small>
+                <small className='text-light'>Confirmé</small>
               </div>
             </article>
             <article className='experience__details'>

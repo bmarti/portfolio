@@ -1,4 +1,3 @@
-import React from 'react'
 import './portfolio.css'
 import IMG1 from '../../assets/img/weather-app.png'
 import IMG2 from '../../assets/img/isigala.png'
@@ -43,29 +42,37 @@ const projectInCreation = [
   {
     id: 1,
     image: IMG4,
-    title: 'Bidondeau',
-    description: 'Application android en phase d\'architecture.',
+    title: 'Day Trading Calculator',
+    description: 'Lancement courant 2025 sur le Play Store.\nApplication android permettant le calcul de trades d\'actions, dérivés selon la stratégie de risques choisi.',
     github: '#',
     technos: 'Kotlin, Java 21'
   },
-  {
-    id: 2,
-    image: IMG4,
-    title: 'Convertisseur de devises',
-    description: 'Convertisseur de monnaies utilisant l\'API Openexchangerates \
-    selon les taux en vigueur en temps réel.',
-    github: '#',
-    technos: 'Kotlin, Java 21'
-  },
+  // {
+  //   id: 2,
+  //   image: IMG4,
+  //   title: 'Bidondeau',
+  //   description: 'Application android en phase d\'architecture.',
+  //   github: '#',
+  //   technos: 'Kotlin, Java 21'
+  // },
   {
     id: 3,
     image: IMG4,
-    title: 'Bibliothèque Java de mathématiques',
-    description: 'Mise à disposition d\'une bibliothèque Java dédiée \
-    à l\'algèbre linéaire et aux mathématiques financières.',
+    title: 'Convertisseur de devises',
+    description: 'Convertisseur de monnaies utilisant l\'API Openexchangerates \
+    selon les taux en vigueur en temps réel. Cette application sera utile pour Day Trading Calculator.',
     github: '#',
-    technos: 'Java 17'
-  }
+    technos: 'Kotlin, Java 21'
+  },
+  // {
+  //   id: 4,
+  //   image: IMG4,
+  //   title: 'Bibliothèque Java de mathématiques',
+  //   description: 'Mise à disposition d\'une bibliothèque Java dédiée \
+  //   à l\'algèbre linéaire et aux mathématiques financières.',
+  //   github: '#',
+  //   technos: 'Java 17'
+  // }
 ]
 
 const Portfolio = () => {
@@ -106,7 +113,8 @@ const Portfolio = () => {
                   <img src={image} alt={title} />
                 </div>
                 <h3>{title}</h3>
-                <h5 className='desc'>{description}</h5>
+                <h5 className='desc'>{
+                description.split('\n').map((line, index) => (<span key={index}>{line}<br /></span>))}</h5>
                 <div className="portfolio__item-cta">
                   <a href={github} className='btn btn-without-code' target='_blank'>Code source non disponible</a>
                 </div>
